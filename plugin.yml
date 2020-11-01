@@ -1,0 +1,12 @@
+name: Warp
+version: 1.0.0
+author: piahosnotgun
+main: cf.urgpa.warp.Warp
+commands:
+  워프:
+    permission: warp.warp
+    description: 워프 명령어
+    usage: "/warp < 생성 | 제거 | 워프명 | 목록 >"
+permissions:
+  warp.warp:
+    default: true
